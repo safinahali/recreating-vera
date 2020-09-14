@@ -2,6 +2,7 @@
 let ht = 0;
 let r = 0;
 function setup() {
+  frameRate(10);
 
 }
 
