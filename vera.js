@@ -13,13 +13,13 @@ function draw() {
   {
   	fill(256);
   	rect(0, ht, 800, 10);
-  	fill(10);
+  	fill(20,5,100);
   	rect(0, ht+10, 800, 10);
   }
 
   for (wt = 0; wt<800; wt=wt+20)
   {
-  	fill(20);
+  	fill(20,5,100);
   	rect(wt, 0, 10, 200-r);
   	fill(256);
   	rect(wt+10, 0, 10, 200-r);
